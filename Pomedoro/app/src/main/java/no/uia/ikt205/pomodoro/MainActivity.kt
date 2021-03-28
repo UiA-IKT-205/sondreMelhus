@@ -69,5 +69,4 @@ class MainActivity : AppCompatActivity() {
     fun updateCountDownDisplay(timeInMs:Long){
         countdownDisplay.text = millisecondsToDescriptiveTime(timeInMs)
     }
-
 }
